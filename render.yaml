@@ -12,7 +12,7 @@ services:
     healthCheckPath: /
     envVars:
       - key: BOT_TOKEN
-        sync: false
+        value: 8855930333:AAGKTuUwWY5wIKD-_5d38qRUHDiVIEPpXMY
       - key: ADMIN_IDS
         value: "6094686933"
       - key: TZ
