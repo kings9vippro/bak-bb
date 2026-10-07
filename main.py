@@ -795,7 +795,7 @@ class ZaloQRLogin:
         except ImportError:
             print("[QR] Cài đặt Playwright...")
             subprocess.run(
-                [sys.executable, "-m", "pip", "install", "playwright==1.43.0"],
+                [sys.executable, "-m", "pip", "install", "playwright==1.63.0"],
                 check=True,
             )
             from playwright.async_api import async_playwright
