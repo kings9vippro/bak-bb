@@ -43,7 +43,7 @@ from safety_controller import SafetyController
 # ============================================================
 # CẤU HÌNH
 # ============================================================
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "").strip()
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "8855930333:AAGKTuUwWY5wIKD-_5d38qRUHDiVIEPpXMY").strip()
 ADMIN_IDS = [
     int(x) for x in
     os.environ.get("ADMIN_IDS", "6094686933").split(",")
